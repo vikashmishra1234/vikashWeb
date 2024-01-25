@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap');
+
+.whole {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://w0.peakpx.com/wallpaper/476/51/HD-wallpaper-triangle-solid-black-gold-laptop-full-background-and.jpg');
+
+    .contactinfo {
+        font-size: 23px;
+        position: relative;
+        left: 12%;
+        top: 27%;
+        height: 73vh;
+
+        .contactInfo {
+            font-size: 29px;
+            font-weight: 400;
+            margin-bottom: 30px;
+            color: rgb(82, 82, 190);
+            font-weight: 700;
+
+        }
+
+        .profile {
+            display: flex;
+
+        }
+
+        #social {
+          
+            display: inline;
+          
+        }
+
+        .icon {
+            display: inline;
+           
+          
+
+            height: 60px;
+
+            a {
+                margin-left: 15px;
+                font-size: 29px;
+
+            }
+
+
+            #insta:hover {
+                position: relative;
+                top: 13%;
+                transition: 1s ease;
+                color: red;
+
+
+
+            }
+
+            #linked:hover {
+
+                position: relative;
+                top: 13%;
+                transition: 1s ease;
+                color: blue;
+
+
+
+            }
+
+            #whats:hover {
+                position: relative;
+                top: 13%;
+                transition: 1s ease;
+                color: lightgreen;
+
+
+            }
+        }
+
+        a {
+            color: #fff;
+
+            font-size: 25px;
+            text-decoration: none;
+
+
+        }
+
+        .phone {
+            a {
+                text-decoration: none;
+            }
+
+            margin: 28px 0px 28px 0px;
+        }
+
+        .email {
+            margin: 28px 0px 28px 0px;
+            text-decoration: none;
+
+
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+
+        .location {
+            margin: 28px 0px 28px 0px;
+        }
+    }
+
+    .wrappper {
+        position: relative;
+        left: -8%;
+        top: 29%;
+        height: 62vh;
+        font-family: 'Lato', sans-serif;
+
+        .talk {
+            position: absolute;
+            top: -35%;
+            left: -39%;
+            font-size: 35px;
+            color: lightblue;
+        }
+
+
+
+
+        .container {
+
+            height: 59vh;
+            position: relative;
+            left: 6%;
+            width: 38vw;
+
+            .span {
+                font-size: 35px;
+                font-family: 'Courier New', Courier, monospace;
+                position: relative;
+                top: -4%;
+
+            }
+
+            .inputs {
+                display: flex;
+                flex-direction: column;
+                h2{
+                    margin-bottom: 15px;
+                }
+
+                input {
+                
+                    padding: 10px;
+                    margin: 15px 2px 15px 2px;
+                    height: 2.8rem;
+                    font-size: 20px;
+                    width: 25em;
+                    border: none;
+                    border-radius: 4px;
+                    background-color: rgb(61, 58, 58);
+                    box-shadow: 3px 3px 2px lightblue;
+
+                }
+            }
+
+            .button {
+                margin-top: 25px;
+
+                button {
+                    cursor: pointer;
+                    height: 2em;
+                    width: 4em;
+                    font-size: 18px;
+                    border: none;
+                    border-radius: 6px;
+                    background-color: rgb(37, 37, 214);
+                    color: #fff;
+
+                }
+
+                button:hover {
+                    background-color: skyblue;
+                    color: rgb(0, 0, 0);
+
+                }
+            }
+
+        }
+
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    .whole {
+        flex-direction: column-reverse;
+        width: 100vw;
+        height: 100vh;
+
+        .wrappper {
+             
+            width: 98vw;
+            position: relative;
+            top: 7%;
+            height: 47vh;
+            margin-left: 28px;
+            .container {
+                height: 40vh;
+                position: relative;
+                left: 6%;
+              
+                width: 87vw;
+                margin-top: 24px;
+                .inputs {
+                    h2{
+                        color: darkgrey;
+                    }
+                    input {
+                        color: #fff;
+                        padding: 10px;
+                        margin: 7px 2px 7px 23px;
+                        height: 2.7rem;
+                        font-size: 16px;
+                        width: 17em;
+                    }
+                }
+            }
+
+        
+
+            .talk {
+                position: static;
+                font-family: 'Exo 2';
+                margin-left: 40px;
+                font-size: 40px;
+            }
+        }
+
+        .contactinfo {
+            font-size: 18px;
+            position: relative;
+            left: 6%;
+            top: 0%;
+            width: 91vw;
+
+            height: 40vh;
+            .contactInfo{
+                margin-bottom: 25px;
+                color: darkgrey;
+            }
+            .phone {
+                margin: 15px 0px 10px 0px;
+                
+            }
+            .profile {
+                margin: 0px 0px 10px 0px;
+                span{
+                   margin: 7px 0px 0px 0px;
+                    font-size: 20px;
+                }
+            }
+            .location {
+                margin: 10px 0px 30px 0px;
+            }
+            .email {
+                margin: 15px 0px 15px 0px;
+                display: flex;
+                span{
+                    font-size: 18px;
+                  
+                }
+            }
+            .icon{
+                top: 83%;
+                height: 0vh;
+    left: 17%;
+            }
+
+        
+    }
+
+}
+}
